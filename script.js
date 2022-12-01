@@ -1,3 +1,6 @@
+const btnAdd = document.querySelector('.btnAdd').addEventListener('click', addHouse)
+
+
 function addHouse(){
     let rua = document.querySelector('input[name="rua"]').value
     let numero = document.querySelector('input[name="numero"]').value
